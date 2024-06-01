@@ -8,6 +8,7 @@ const Footer = () => {
           <div class="footer-wrapper">
             <div class="footer-faded-text">Gourav Chandravanshi</div>
 
+
             <div class="link-wrapper">
               <div>
                 <a href="#projects">Projects</a>
