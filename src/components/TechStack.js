@@ -36,10 +36,9 @@ const TechStack = () => {
 
           <div class="skill-subHeading">
             <p>
-              Hi Everyone My name is John Doe I am a Full Stack Web Developer I
-              have been working for last 3 Years and Currently I am working with
-              a Budding Startup in USA and a full Time Freelancer. Currently I
-              am working on NextJs and Making Beautiful UI-UX are my fey
+              Hi Everyone My name is Gourav Chandravanshi I am a Full Stack Web Developer I
+              have been working for last 1 Years and Currently. Currently I
+              am working on nodejs and Making Beautiful UI-UX are my few
               features
             </p>
             <p>
