@@ -16,7 +16,6 @@ const Projects = () => {
     <div>
       <div className="project-section" id="projects">
       <h2 className="page-header">Projects</h2>
-
         <div className="project-container">
           <div className="project-card" id="project1">
             <div className="project-number project-number-right">01</div>
@@ -39,37 +38,37 @@ const Projects = () => {
                 />
                 <img
                   className="project-skill"
-                  src={expressPng}
+                  src=""
                   alt=""
                 />
                 <img
                   className="project-skill"
-                  src={nextjsPng}
+                  src="{nextjsPng}"
                   alt=""
                 />
                 <img
                   className="project-skill"
-                  src={tailwindcssPng}
+                  src="{tailwindcssPng}"
                   alt=""
                 />
                 <img
                   className="project-skill"
-                  src={nodejsPng}
+                  src="{nodejsPng}"
                   alt=""
                 />
                 <img
                   className="project-skill"
-                  src={mongodbPng}
+                  src="{mongodbPng}"
                   alt=""
                 />
                 <img
                   className="project-skill"
-                  src={reduxPng}
+                  src="{reduxPng}"
                   alt=""
                 />
                 <img
                   className="project-skill"
-                  src={vercelPng}
+                  src="{vercelPng}"
                   alt=""
                 />
               </div>
