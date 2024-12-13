@@ -73,11 +73,12 @@ const Projects = () => {
                 />
               </div>
 
-              <h2 className="project-heading">Tint & Orange</h2>
+              <h2 className="project-heading">Sorting visualizer</h2>
 
               <div className="project-sub-heading">
-                Its is a car modification company which provide ou sheets to
-                protect your car from scratch
+              A Website Sorting Visualizer is an interactive tool 
+              that visually demonstrates how various sorting algorithms 
+              (like Bubble Sort, Merge Sort, etc.) organize data.
               </div>
 
               <div className="btn-grp">
