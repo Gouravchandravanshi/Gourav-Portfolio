@@ -7,7 +7,7 @@ const ContactUs = () => {
         <div class="container">
           <h1 class="contactus-heading">Contact me</h1>
           <h3 class="contactus-sub-heading">
-            Questions, thoughts, or just want to say hello
+            Questions, thoughts, or just want to say hello ?
           </h3>
 
           <div class="contactus-form-container">
