@@ -112,11 +112,11 @@ const Projects = () => {
                   src={javascriptPng}
                   alt=""
                 ></img>
-                <img
+                {/* <img
                   className="project-skill"
                   src={nextjsPng}
                   alt=""
-                ></img>
+                ></img> */}
                 <img
                   className="project-skill"
                   src={tailwindcssPng}
@@ -133,16 +133,16 @@ const Projects = () => {
                   alt=""
                 ></img>
               </div>
-              <h2 className="project-heading">Breaking Copyrights</h2>
+              <h2 className="project-heading">Brainbox Landing Page</h2>
               <p className="project-sub-heading">
-                A platform to download copyrights free youtube music
+                Discover the future of conversations with BrainBox — a collection of intelligent chatbots powered by advanced AI.
               </p>
               <div className="btn-group">
-                <button className="btn-pink btn-project">Read More</button>
-                <a href="">
+                <a href="https://brainbox-kohl.vercel.app/"><button className="btn-pink btn-project" href="https://brainbox-kohl.vercel.app/">Read More</button></a>
+                <a href="https://github.com/Gouravchandravanshi/brainbox">
                   <i title="GitHubLink" className="fa-brands fa-github icon"></i>
                 </a>
-                <a href="">
+                <a href="https://brainbox-kohl.vercel.app/">
                   <i title="Live Link" className="fa-solid fa-link icon"></i>
                 </a>
               </div>
@@ -185,17 +185,17 @@ const Projects = () => {
                 ></img>
               </div>
 
-              <h2 className="project-heading">Isha Tattva</h2>
+              <h2 className="project-heading">House Renting Website</h2>
               <p className="project-sub-heading">
-                A Website for interior designer to showcase her works and
-                samples
+                HomeEase — Find it. Love it. Rent it.
+Discover verified rental homes, connect with trusted landlords, and move into your next home with confidence.
               </p>
               <div className="btn-group">
-                <button className="btn-pink btn-project">Read More</button>
-                <a href="">
+               <a href='https://house-renting-website-six.vercel.app/'> <button className="btn-pink btn-project">Read More</button></a>
+                <a href="https://github.com/Gouravchandravanshi/house-renting-website">
                   <i title="GitHubLink" className="fa-brands fa-github icon"></i>
                 </a>
-                <a href="">
+                <a href="https://house-renting-website-six.vercel.app/">
                   <i title="Live Link" className="fa-solid fa-link icon"></i>
                 </a>
               </div>
