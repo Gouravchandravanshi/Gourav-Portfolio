@@ -38,55 +38,53 @@ const Projects = () => {
                 />
                 <img
                   className="project-skill"
-                  src=""
+                  src={tailwindcssPng}
                   alt=""
                 />
                 <img
                   className="project-skill"
-                  src="{nextjsPng}"
+                  src={expressPng}
                   alt=""
                 />
-                <img
+                {/* <img
                   className="project-skill"
                   src="{tailwindcssPng}"
                   alt=""
-                />
+                /> */}
                 <img
                   className="project-skill"
-                  src="{nodejsPng}"
+                  src={nodejsPng}
                   alt=""
                 />
                 <img
                   className="project-skill"
-                  src="{mongodbPng}"
+                  src={mongodbPng}
                   alt=""
                 />
-                <img
+                {/* <img
                   className="project-skill"
                   src="{reduxPng}"
                   alt=""
-                />
+                /> */}
                 <img
                   className="project-skill"
-                  src="{vercelPng}"
+                  src={vercelPng}
                   alt=""
                 />
               </div>
 
-              <h2 className="project-heading">Sorting visualizer</h2>
+              <h2 className="project-heading">Expenses Tracker App</h2>
 
               <div className="project-sub-heading">
-              A Website Sorting Visualizer is an interactive tool 
-              that visually demonstrates how various sorting algorithms 
-              (like Bubble Sort, Merge Sort, etc.) organize data.
+              A comprehensive budget tracking application with intelligent expense prediction capabilities. Track your spending, set budgets, and get real-time predictions about when you might exceed your budget limits.
               </div>
 
               <div className="btn-grp">
                 <button className="btn-pink btn-project">Read More</button>
-                <a href="">
+                <a href="https://github.com/Gouravchandravanshi/Expenses-tracker-app-frontend" target='blank'>
                   <i title="GitHubLink" className="fa-brands fa-github icon"></i>
                 </a>
-                <a href="">
+                <a href="https://expenses-tracker-app-frontend.vercel.app/" target='_blank'>
                   <i title="Live Link" className="fa-solid fa-link icon"></i>
                 </a>
               </div>
@@ -137,15 +135,27 @@ const Projects = () => {
               <p className="project-sub-heading">
                 Discover the future of conversations with BrainBox — a collection of intelligent chatbots powered by advanced AI.
               </p>
-              <div className="btn-group">
+              {/* <div className="btn-group">
                 <a href="https://brainbox-kohl.vercel.app/"><button className="btn-pink btn-project" href="https://brainbox-kohl.vercel.app/">Read More</button></a>
-                <a href="https://github.com/Gouravchandravanshi/brainbox">
+                <a href="https://github.com/Gouravchandravanshi/brainbox" target='blank'>
                   <i title="GitHubLink" className="fa-brands fa-github icon"></i>
                 </a>
-                <a href="https://brainbox-kohl.vercel.app/">
+                <a href="https://brainbox-kohl.vercel.app/" target='blank'>
+                  <i title="Live Link" className="fa-solid fa-link icon"></i>
+                </a>
+              </div> */}
+             
+             <div className="btn-grp">
+                <button className="btn-pink btn-project" >Read More</button>
+                <a href="https://github.com/Gouravchandravanshi/brainbox" target='blank'>
+                  <i title="GitHubLink" className="fa-brands fa-github icon"></i>
+                </a>
+                <a href="https://brainbox-kohl.vercel.app/" target='_blank'>
                   <i title="Live Link" className="fa-solid fa-link icon"></i>
                 </a>
               </div>
+
+
             </div>
           </div>
 
@@ -192,10 +202,10 @@ Discover verified rental homes, connect with trusted landlords, and move into yo
               </p>
               <div className="btn-group">
                <a href='https://house-renting-website-six.vercel.app/'> <button className="btn-pink btn-project">Read More</button></a>
-                <a href="https://github.com/Gouravchandravanshi/house-renting-website">
+                <a href="https://github.com/Gouravchandravanshi/house-renting-website" target='blank'>
                   <i title="GitHubLink" className="fa-brands fa-github icon"></i>
                 </a>
-                <a href="https://house-renting-website-six.vercel.app/">
+                <a href="https://house-renting-website-six.vercel.app/" target='blank'>
                   <i title="Live Link" className="fa-solid fa-link icon"></i>
                 </a>
               </div>
@@ -206,33 +216,58 @@ Discover verified rental homes, connect with trusted landlords, and move into yo
             <div className="project-number project-number-left">04</div>
             <div className="project-content project-content-right">
               <div className="project-skills-container">
+               <img
+                  className="project-skill"
+                  src={htmlPng}
+                  alt=""
+                />
                 <img
                   className="project-skill"
-                  src={nextjsPng}
+                  src={cssPng}
                   alt=""
-                ></img>
+                />
+                <img
+                  className="project-skill"
+                  src={javascriptPng}
+                  alt=""
+                />
                 <img
                   className="project-skill"
                   src={tailwindcssPng}
                   alt=""
-                ></img>
+                />
+                <img
+                  className="project-skill"
+                  src={expressPng}
+                  alt=""
+                />
+                <img
+                  className="project-skill"
+                  src={nodejsPng}
+                  alt=""
+                />
+                <img
+                  className="project-skill"
+                  src={mongodbPng}
+                  alt=""
+                />
+               
                 <img
                   className="project-skill"
                   src={vercelPng}
                   alt=""
-                ></img>
+                />
               </div>
-              <h2 className="project-heading">Granit</h2>
+              <h2 className="project-heading">Crm Dashboard</h2>
               <p className="project-sub-heading">
-                A architectural website to plan your building or home (Hebrew
-                Language)
+                Created a CRM dashboard using the MERN stack that allows users to perform CRUD operations on employees and leads. The app provides an intuitive interface for managing data efficiently in real time.
               </p>
               <div className="btn-group">
                 <button className="btn-pink btn-project">Read More</button>
-                <a href="">
+                <a href="https://github.com/Gouravchandravanshi/crm-mern-fronted" target='blank'>
                   <i title="GitHubLink" className="fa-brands fa-github icon"></i>
                 </a>
-                <a href="">
+                <a href="https://crm-mern-fronted.vercel.app/dashboard" target='blank'>
                   <i title="Live Link" className="fa-solid fa-link icon"></i>
                 </a>
               </div>
